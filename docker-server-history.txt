@@ -1,0 +1,110 @@
+docker-server history
+
+ansadmin-user history
+
+    1  exit
+    2  ls
+    3  cd /opt/
+    4  ls
+    5  exit
+    6  cd /opt/docker/
+    7  ;s
+    8  ls
+    9  rm -rf Dockerfile 
+   10  docker ps
+   11  docker images
+   12  docker ps
+   13  docker rm -f 01b4dd5170d4
+   14  docker images
+   15  docker rmi b5d198db257c e61a3c7044f6 51c25da77baf 
+   16  docker ps
+   17  docker images
+   18  docker ps
+   19  ls
+   20  docker images
+   21  ls
+   22  cd /opt/
+   23  ls
+   24  cd docker/
+   25  ls
+   26  touch Dockerfilw
+   27  mv Dockerfilw Dockerfile
+   28  vi Dockerfile 
+   29  history
+   30  exit
+   31  ls
+   32  history
+
+
+dockeradmin-user history
+
+    1  l
+    2  ks
+    3  ls
+    4  pwd
+    5  cd /home/dockeradmin/
+    6  ls
+    7  ls
+    8  ll
+    9  vim Dockerfile
+   10  cat Dockerfile 
+   11  ls
+   12  docker build -t devops-project .
+   13  docker images
+   14  cat Dockerfile 
+   15  vim Dockerfile
+   16  docker build -t devops-project .
+   17  docker images
+   18  docker rmi ef6a7c98d192 37ce4f4ab859 37ce4f4ab859
+   19  docker rmi ef6a7c98d192 37ce4f4ab859
+   20  docker images
+   21  docker ps
+   22  docker rmi 37ce4f4ab859
+   23  docker rmi tomcat:8.5
+   24  docker rmi tomcat:8
+   25  docker ps
+   26  docker images
+   27  docker rmi ef6a7c98d192
+   28  docker rm -f 9489688c02ce
+   29  docker run -d --name dev-container -p 8080:8080 devops-project
+   30  docker ps
+   31  vi /etc/ssh/sshd_config
+   32  exit
+   33  ls
+   34  ll
+   35  date
+   36  docker ps
+   37  docker rm -f 7b6ca4ba23bb
+   38  docker images
+   39  docker rmi devops-project 51c25da77baf ef6a7c98d192
+   40  docker ps
+   41  docker ps -a
+   42  docker images
+   43  ll
+   44  date
+   45  docker ps
+   46  docker images
+   47  docker rm -f 716dfcf4a24c
+   48  docker rmi $(docker images -q)
+   49  docker images
+   50  ls
+   51  docker ps
+   52  docker images
+   53  dokcer ps
+   54  docker ps
+   55  docker rm -f f357ae96b403
+   56  docker rmi devops-image
+   57  docker rmi tomcat
+   58  docker rm -f f357ae96b403
+   59  docker ps
+   60  docker images
+   61  docker rmi b0a22067820f
+   62  docker rmi 7b167775f288
+   63  docker images
+   64  docker ps
+   65  docker images
+   66  useradd ansadmin
+   67  exit
+   68  history
+   
+   

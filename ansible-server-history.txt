@@ -1,0 +1,322 @@
+ansible-server history
+
+root-user commands
+
+    1  hostname Ansible-Server
+    2  vi /etc/hostname
+    3  sudo su -
+    4  cat /etc/hostname
+    5  hostname ansible-server
+    6  sudo su -
+    7  ls
+    8  su - ansadmin
+    9  ssh ansadmin@172.31.46.247
+   10  su - ansadmin
+   11  ls
+   12  su - ansadmin
+   13  ls
+   14  docker ps
+   15  sudo su - ansadmin
+   16  ls
+   17  sudo su - ansadmin
+   18  ls
+   19  history
+
+ 
+ansible-user commands 
+
+    1  ls
+    2  vim /etc/hostname
+    3  exit
+    4  ls
+    5  ssh-keygen
+    6  ls
+    7  ls -al
+    8  cd .ssh/
+    9  ls
+   10  ssh-copy-id ansadmin@172.31.46.247
+   11  exit
+   12  ssh 3.110.132.151
+   13  sudo vi /etc/ansible/hosts
+   14  ll /etc/ansible/
+   15  sudo vi /etc/ansible/hosts
+   16  ansible -m ping
+   17  ansible all -m ping
+   18  sudo vi /etc/ansible/hosts
+   19  ansible all -m ping
+   20  sudo /etc/ssh/sshd_config.d/
+   21  sudo vi /etc/ssh/sshd_config.d/
+   22  sudo vi /etc/ssh/sshd_config
+   23  ls -a
+   24  cd ..sh
+   25  cd .ssh/
+   26  ls
+   27  cat known_hosts
+   28  ls
+   29  cat id_rsa.pub
+   30  ssh-copy-id localhost
+   31  ls
+   32  cat id_rsa.pub
+   33  ls
+   34  cat authorized_keys
+   35  ansible all -m ping
+   36  cd /opt/docker
+   37  cd /opt/
+   38  ls
+   39  sudo mkdir docker
+   40  ls
+   41  cd /opt/
+   42  ls
+   43  cd docker/
+   44  ls
+   45  cd ..
+   46  ls
+   47  cd docker/
+   48  ls
+   49  cd ..
+   50  ls
+   51  cd ddo
+   52  cd docker/
+   53  ls
+   54  cd ..
+   55  ls
+   56  cd
+   57  ls
+   58  cd opt/
+   59  s
+   60  ls
+   61  cd docker/
+   62  ls
+   63  cd ../..
+   64  ls
+   65  rm -rf opt/
+   66  ls
+   67  cd /opt/docker/
+   68  ls
+   69  cd ..
+   70  ls
+   71  ls -ltr
+   72  chown -R ansadmin docker
+   73  chown -R docker ansadmin
+   74  sudo chown -R ansadmin:ansadmin docker/
+   75  ls -ltr
+   76  ls
+   77  cd docker/
+   78  ls
+   79  vi Dockerfile
+   80  vi simple-devops-image.yml
+   81  cat simple-devops-image.yml
+   82  docker images
+   83  docker ps -a
+   84  vi hosts
+   85  cat hosts
+   86  ansible-playbook -i hosts simple-devops-image.yml --check
+   87  ansible-playbook -i hosts simple-devops-image.yml
+   88  docker images
+   89  docker ps -a
+   90  vi simple-devops-image.yml
+   91  ansible-playbook -i hosts simple-devops-image.yml --check
+   92  ansible-playbook -i hosts simple-devops-image.yml
+   93  docker ps
+   94  docker rm -f 85cd9282fb71
+   95  docker image
+   96  docker images
+   97  docker rmi simple-devops-image tomcat
+   98  docker images
+   99  docker ps
+  100  docker ps -a
+  101  ls
+  102  vi Dockerfile
+  103  ls
+  104  ll
+  105  date
+  106  docker ps
+  107  docker images
+  108  ls
+  109  vi simple-devops-image.yml
+  110  docker images
+  111  vi simple-devops-image.yml
+  112  ll
+  113  date
+  114  vi Dockerfile
+  115  vi simple-devops-image.yml
+  116  date
+  117  ll
+  118  ansible-playbook -i hosts simple-devops-image.yml --check
+  119  vim simple-devops-image.yml
+  120  ansible-playbook -i hosts simple-devops-image.yml --check
+  121  vim simple-devops-image.yml
+  122  ansible-playbook -i hosts simple-devops-image.yml --check
+  123  vim simple-devops-image.yml
+  124  ansible-playbook -i hosts simple-devops-image.yml --check
+  125  vim simple-devops-image.yml
+  126  ansible-playbook -i hosts simple-devops-image.yml --check
+  127  vim simple-devops-image.yml
+  128  ansible-playbook -i hosts simple-devops-image.yml --check
+  129  vim simple-devops-image.yml
+  130  ansible-playbook -i hosts simple-devops-image.yml --check
+  131  vim simple-devops-image.yml
+  132  ansible-playbook -i hosts simple-devops-image.yml --check
+  133  vim simple-devops-image.yml
+  134  ansible-playbook -i hosts simple-devops-image.yml --check
+  135  vim simple-devops-image.yml
+  136  ansible-playbook -i hosts simple-devops-image.yml --check
+  137  vim simple-devops-image.yml
+  138  ansible-playbook -i hosts simple-devops-image.yml --check
+  139  docker ps
+  140  docker images
+  141  docker ps
+  142  docker images
+  143  docker rm 72c7e72781bc
+  144  docker rmi 72c7e72781bc
+  145  docker images
+  146  ls
+  147  cd /opt/docker/
+  148  ls
+  149  docker ps
+  150  docker ps -a
+  151  docker images
+  152  ls
+  153  docker imgaes
+  154  docker images
+  155  docker tag simple-devops-image.yml vijaykumarg/simple-devops-image
+  156  docker tag simple-devops-image vijaykumarg/simple-devops-image
+  157  docker images
+  158  docker login
+  159  docker push vijaykumarg/simple-devops-image
+  160  ls
+  161  docker ps
+  162  docker images
+  163  docker rmi simple-devops-image
+  164  docker images
+  165  docker rmi vijaykumarg/simple-devops-image
+  166  docker rmi -f vijaykumarg/simple-devops-image
+  167  docker images
+  168  docker rmi -f tomcat
+  169  docker images
+  170  docker ps
+  171  docker pull vijaykumarg/simple-devops-image
+  172  docker images
+  173  ls
+  174  history
+  175  docker ps
+  176  docker images
+  177  ls
+  178  docker images
+  179  ls
+  180  cd /opt/docker/
+  181  ll
+  182  ls
+  183  vi simple-devops-image.yml
+  184  ls
+  185  cat simple-devops-image.yml
+  186  docker images
+  187  ls
+  188  cat simple-devops-image.yml
+  189  docker images
+  190  docker rmi vijaykumarg/simple-devops-image
+  191  docker ps -a
+  192  docker rm -f d38846e85861
+  193  docker rmi vijaykumarg/simple-devops-image
+  194  ls
+  195  docker images
+  196  ls
+  197  ansible-playbook -i hosts simple-devops-image.yml --check
+  198  ansible-playbook -i hosts simple-devops-image.yml
+  199  vim simple-devops-image.yml
+  200  ansible-playbook -i hosts simple-devops-image.yml
+  201  docker images
+  202  vim simple-devops-image.yml
+  203  mv simple-devops-image.yml simple-devops-project.yml
+  204  ls
+  205  mv simple-devops-project.yml create-simple-devops-project.yml
+  206  ls
+  207  ll
+  208  vi cat create-simple-devops-project.yml
+  209  ls
+  210  cat create-simple-devops-project.yml
+  211  vi create-simple-devops-image.yml
+  212  cat create-simple-devops-image.yml
+  213  ansible-playbook -i hosts create-simple-devops-image.yml --check
+  214  ansible-playbook -i hosts create-simple-devops-project.yml --check
+  215  ansible-playbook -i hosts create-simple-devops-project.yml
+  216  ls
+  217  cat hosts
+  218  vi hosts
+  219  ansible all -m ping
+  220  docker images
+  221  docker rmi 51c25da77baf
+  222  ansible-playbook -i hosts create-simple-devops-image.yml --limit localhost
+  223  docker images
+  224  docker ps
+  225  ansible-playbook -i hosts create-simple-devops-image.yml
+  226  vim create-simple-devops-image.yml
+  227  vim create-simple-devops-project.yml
+  228  ansible-playbook -i hosts create-simple-devops-project.yml --check
+  229  ansible-playbook -i hosts create-simple-devops-project.yml --limit localhost --check
+  230  cat create-simple-devops-project.yml
+  231  docker images
+  232  docker ps
+  233  docker rm -f 38ded6dd6eff
+  234  docker rmi vijaykumarg/simple-devops-image
+  235  docker images
+  236  docker ps
+  237  ansible-playbook -i hosts create-simple-devops-project.yml --limit localhost --check
+  238  cat create-simple-devops-project.yml
+  239  docker images
+  240  ansible-playbook -i hosts create-simple-devops-project.yml --limit localhost
+  241  vi create-simple-devops-image.yml
+  242  cat create-simple-devops-image.yml
+  243  cat create-simple-devops-project.yml
+  244  ansible-playbook -i hosts create-simple-devops-image.yml
+  245  ansible-playbook -i hosts create-simple-devops-project.yml
+  246  ansible-playbook -i hosts create-simple-devops-project.yml --172.31.46.247
+  247  ansible-playbook -i hosts create-simple-devops-project.yml --limit 172.31.46.247
+  248  vi create-simple-devops-project.yml
+  249  ansible-playbook -i hosts create-simple-devops-project.yml --limit 172.31.46.247
+  250  vi create-simple-devops-project.yml
+  251  mv create-simple-devops-project.yml create-simple-devops-image1.yml
+  252  mv create-simple-devops-image.yml create-simple-devops-project.yml
+  253  ls
+  254  mv create-simple-devops-image1.yml create-simple-devops-image.yml
+  255  ls
+  256  ansible-playbook -i hosts create-simple-devops-image.yml --limit 172.31.46.247
+  257  ansible-playbook -i hosts create-simple-devops-project.yml --limit 172.31.46.247
+  258  cd /opt/docker/
+  259  cat create-simple-devops-project.yml
+  260  ansible-playbook -i hosts create-simple-devops-project.yml --limit 172.31.46.247
+  261  docker images
+  262  docker ps
+  263  docker ps -a
+  264  docker rm -f 55d78340a42f
+  265  docker rmi vijaykumarg/simple-devops-image
+  266  docker rmi edb1ce32a38a
+  267  docker rmi 51c25da77baf
+  268  docker ps -a
+  269  docker images
+  270  ll
+  271  docker images
+  272  ansible-playbook -i hosts create-simple-devops-project.yml --limit 172.31.46.247
+  273  ansible-playbook -i hosts create-simple-devops-image.yml --limit localhost
+  274  ansible-playbook -i hosts create-simple-devops-project.yml --limit 172.31.46.247
+  275  ls
+  276  ll
+  277  date
+  278  ansible-playbook -i hosts create-simple-devops-image.yml --limit localhost
+  279  vim create-simple-devops-image.yml
+  280  cd /opt/docker/
+  281  ll
+  282  date
+  283  vim create-simple-devops-
+  284  vim create-simple-devops-image.yml
+  285  ls
+  286  vi ls
+  287  ls
+  288  cd /opt/docker/
+  289  ls
+  290  vi k8s-deploy.yml
+  291  vi k8s-service.yml
+  292  vi k8s-deploy.yml
+  293  vi k8s-service.yml
+  294  ls
+  295  history

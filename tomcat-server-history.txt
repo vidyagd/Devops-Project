@@ -1,0 +1,72 @@
+tomcat-server history
+
+root-user history
+
+    1  hostname tomcat-server
+    2  vim /etc/hostname 
+    3  sudo su -
+    4  ls
+    5  cd /opt/
+    6  ls
+    7  wget https://downloads.apache.org/tomcat/tomcat-8/v8.5.87/bin/apache-tomcat-8.5.87.tar.gz.sha512
+    8  ls
+    9  rm -rf apache-tomcat-8.5.87.tar.gz.sha512 
+   10  wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.87/bin/apache-tomcat-8.5.87.tar.gz
+   11  ls
+   12  tax -xzvf apache-tomcat-8.5.87.tar.gz 
+   13  tar -xzvf apache-tomcat-8.5.87.tar.gz 
+   14  ls
+   15  mv apache-tomcat-8.5.87 tomcat
+   16  ls
+   17  rm -rf apache-tomcat-8.5.87.tar.gz 
+   18  ls
+   19  cd tomcat/
+   20  ls
+   21  cd
+   22  vim .bash_profile 
+   23  yum install java-11*
+   24  java 
+   25  cd /opt/bin
+   26  cd /opt/tomcat/bin/
+   27  ls
+   28  ./startup.sh 
+   29  cd ..
+   30  find / -name context.xml
+   31  cd webapps/manager/META-INF/
+   32  ls
+   33  vim context.xml 
+   34  cd ../..
+   35  ls
+   36  cd host-manager/META-INF/
+   37  vim context.xml 
+   38  ls
+   39  cd ../../..
+   40  ls
+   41  cd conf/
+   42  ls
+   43  vim tomcat-users.xml 
+   44  cd ../bin/
+   45  ls
+   46  ./shutdown.sh 
+   47  ./startup.sh 
+   48  ls
+   49  yum install git -y
+   50  ls
+   51  cd 
+   52  git config --global user.name "vijaykumar"
+   53  git config --global user.email "gangoor.vijaykumar976@gmail.com"
+   54  git clone https://github.com/Viji720/Devops_Project.git
+   55  ls
+   56  cd Devops_Project/
+   57  ;s
+   58  ls
+   59  cd webapp/src/main/webapp/
+   60  ls
+   61  vim index.jsp 
+   62  git status 
+   63  git add .
+   64  git commit -m "Committing for tomcat"
+   65  git push origin master
+   66  cd
+   67  ls
+   68  history 

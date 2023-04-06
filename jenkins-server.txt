@@ -1,0 +1,60 @@
+jenkins-server history
+
+root-user history
+
+    1  hostname Jenkins-Server
+    2  vi /etc/hostname
+    3  sudo su -
+    4  ls
+    5  java --version
+    6  yum install java-11
+    7  java
+    8  java --version
+    9  yum install jenkins
+   10  ls
+   11  vim .bash_profile
+   12  find /usr/lib/jvm/java-11* | head -n 3
+   13  vim .bash_profile
+   14  wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/redhat-stable/jenkins.repo
+   15  rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+   16  yum install jenkins
+   17  systemctl enable jenkins
+   18  systemctl start jenkins
+   19  systemctl status jenkins
+   20  cat /var/lib/jenkins/secrets/initialAdminPassword
+   21  cat /var/lib/jenkins/secrets/initialAdminPassword
+   22  yum install git
+   23  wget https://dlcdn.apache.org/maven/maven-3/3.9.1/binaries/apache-maven-3.9.1-bin.tar.gz
+   24  ls
+   25  tar -xzvf apache-maven-3.9.1-bin.tar.gz
+   26  ls
+   27  mv apache-maven-3.9.1 /opt/maven
+   28  pwd
+   29  vim .bash_profile
+   30  sudo su -
+   31  systemctl status jenkins.service
+   32  top
+   33  ps -ef | grep jenkins
+   34  systemctl stop jenkins.service
+   35  top
+   36  ps -ef | grep jenkins
+   37  systemctl start jenkins.service
+   38  top
+   39  ps -ef | grep jenkins
+   40  top
+   41  systemctl stop jenkins
+   42  systemctl start jenkins
+   43  systemctl status jenkins
+   44  top
+   45  ls
+   46  top
+   47  ls
+   48  docker images
+   49  lsof -i:22
+   50  lsof -i -P -n | grep LISTEN
+   51  lsof
+   52  lsof -i -P -n
+   53  netstat -tulpn
+   54  history
+
+

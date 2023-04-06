@@ -1,0 +1,64 @@
+k8s-management-server history
+
+root-user history
+
+    1  ls
+    2  curl -Lo kops https://github.com/kubernetes/kops/releases/download/$(curl -s https://api.github.com/repos/kubernetes/kops/releases/latest | grep tag_name | cut -d '"' -f 4)/kops-linux-amd64
+    3  ls
+    4  chmod +x ./kops
+    5  sudo mv ./kops /usr/local/bin/
+    6  ls
+    7  curl -Lo kubectl https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+    8  chmod +x ./kubectl
+    9  sudo mv ./kubectl /usr/local/bin/kubectl
+   10  ls
+   11  apt-get update
+   12  apt install python3-pip
+   13  pip install awscli
+   14  aws configure
+   15  ssh-keygen
+   16  cd .ssh/
+   17  ls
+   18  cat id_rsa.pub
+   19  cd
+   20  kops
+   21  kubectl
+   22  apt install docker
+   23  docker --version
+   24  docker
+   25  apt install docker.io
+   26  docker
+   27  docker --version
+   28  ls
+   29  hostname k8s-management-server
+   30  vi /etc/hostname
+   31  sudo su -
+   32  vi /etc/ssh/sshd_config
+   33  kops
+   34  kubectl
+   35  kubectl get pods
+   36  kubectl get pod
+   37  ls
+   38  kops validate cluster --state=s3://my-k8s-bucket23
+   39  kubectl get pods
+   40  kubectl get deploy
+   41  kubectl get service
+   42  kubectl delete deployment k8s-deployment
+   43  kubectl delete service k8s-service
+   44  kubectl get deploy
+   45  kubectl get servive
+   46  kubectl get service
+   47  ls
+   48  vi k8s-deploy.yml
+   49  ls
+   50  cat k8s-service.yml
+   51  vi  k8s-service.yml
+   52  vi k8s-deploy.yml
+   53  ls
+   54  kubectl get deploy
+   55  kubectl get service
+   56  cat k8s-deploy.yml
+   57  vi k8s-deploy.yml
+   58  vi k8s-service.yml
+   59  kops delete cluster --name=project.k8s.local --yes --state=s3://my-k8s-bucket23
+   60  history
